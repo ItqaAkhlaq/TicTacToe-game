@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic-Tac-Toe</title>
+    <link rel="stylesheet" href="output.css">
+    <link rel="stylesheet" href="app.js">
+    <style>
+        html, body {
+          height: 100%;
+        }
+      </style>
+</head>
+<body class="overflow-hidden flex-col justify-center items-center bg-gradient-to-r from-[#0A2239] via-[#53A2BE] to-[#0A2239] text-center">
+    <div id="msg-con"  class="text-white h-[100%] hidden flex-col justify-center items-center pt-52">
+        <p id="msg" class="text-[8vmin] font-semibold px-8">Winner</p>
+        <button id="newbtn" class="p-3 mt-6 text-lg font-semibold border-none rounded-lg bg-[#366c81]">Start New Game</button>
+    </div>
+    <main class="text-white py-14">
+        <h1 class="font-bold text-5xl shadow-xl shadow-white rounded-lg h-16">Tic Tac Toe</h1>
+        <div class="container mx-auto flex justify-center items-center h-[55vh] md:h-[70vh] lg:h-[70vh] xl:h-[70vh] 2xl:h-[70vh] w-full md:w-[70vh] text-[#19446d] text-[8vmin] font-normal">
+            <div class="h-[60vmin] w-[60vmin] flex flex-wrap justify-center items-center gap-2">
+                <button id="btn" class="bg-white border-none shadow-lg shadow-white rounded-lg h-[18vmin] w-[18vmin]"></button>
+                <button id="btn" class="bg-white border-none shadow-lg shadow-white rounded-lg h-[18vmin] w-[18vmin]"></button>
+                <button id="btn" class="bg-white border-none shadow-lg shadow-white rounded-lg h-[18vmin] w-[18vmin]"></button>
+                <button id="btn" class="bg-white border-none shadow-lg shadow-white rounded-lg h-[18vmin] w-[18vmin]"></button>
+                <button id="btn" class="bg-white border-none shadow-lg shadow-white rounded-lg h-[18vmin] w-[18vmin]"></button>
+                <button id="btn" class="bg-white border-none shadow-lg shadow-white rounded-lg h-[18vmin] w-[18vmin]"></button>
+                <button id="btn" class="bg-white border-none shadow-lg shadow-white rounded-lg h-[18vmin] w-[18vmin]"></button>
+                <button id="btn" class="bg-white border-none shadow-lg shadow-white rounded-lg h-[18vmin] w-[18vmin]"></button>
+                <button id="btn" class="bg-white border-none shadow-lg shadow-white rounded-lg h-[18vmin] w-[18vmin]"></button>
+            </div>
+        </div>
+        <button id="reset" class="p-3 ml-5 mt-2 text-lg font-semibold border-none rounded-lg bg-[#366c81]">Reset Game</button>
+    </main>
+    <script src="app.js"></script>
+</body>
+</html>
